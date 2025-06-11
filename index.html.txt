@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaleidoscope Kitchen Resprays</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kaleidoscope Kitchen Resprays</h1>
+    <p>Transforming kitchens across Ayrshire with stunning, durable resprays.</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We use premium RAL/Pantone/Farrow & Ball systems to rejuvenate your kitchen from just £699. Save thousands vs a full refit. Local, one‑day service. No deposit—pay when satisfied.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="gallery">
+      <!-- Replace sample images with your real photos -->
+      <img src="images/portfolio1.jpg" alt="Kitchen 1">
+      <img src="images/portfolio2.jpg" alt="Kitchen 2">
+      <img src="images/portfolio3.jpg" alt="Kitchen 3">
+      <img src="images/portfolio4.jpg" alt="Kitchen 4">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Request a Quote / Site Visit</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <input type="text" name="phone" placeholder="Your phone number" required>
+      <textarea name="message" rows="5" placeholder="Your project details" required></textarea>
+      <button type="submit">Send Request</button>
+      <p id="formResponse" class="hidden"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>📍Based in Ayrshire, UK | 📞 07463 658580 | ✉️ info@kaleidoscopekitchenresprays.co.uk</p>
+    <div class="social">
+      <a href="https://instagram.com/kaleidoscopekitchenresprays" target="_blank">Instagram</a> |
+      <a href="https://facebook.com/kaleidoscopekitchenresprays" target="_blank">Facebook</a> |
+      <a href="https://tiktok.com/@kaleidoscopekitchenresprays" target="_blank">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
